@@ -5,7 +5,7 @@ from client import OpenAiTextClassifier
 from text_examples import AI_TEXT
 
 # API_KEY = os.getenv("")
-API_KEY = "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"
+API_KEY = "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"
 
 st.set_page_config(page_title="OpenAI文本检测器", page_icon="🐙")
 st.markdown("""
