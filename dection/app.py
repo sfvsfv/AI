@@ -4,8 +4,9 @@ import streamlit as st
 from client import OpenAiTextClassifier
 from text_examples import AI_TEXT
 
-# API_KEY = os.getenv("")
-API_KEY = "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"
+with open('api_key.txt', 'r') as file:
+    API_KEY = file.read().strip()
+
 
 st.set_page_config(page_title="OpenAI文本检测器", page_icon="🐙")
 st.markdown("""
